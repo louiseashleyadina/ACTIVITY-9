@@ -1,0 +1,35 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:green;
+}
+nav{
+    display: flex;
+    flex-direction:row;
+}
+a{
+    padding:20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline 5px solid aquamarine;  
+}
+article{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:blue;
+}
+.home1{
+    border:5px solid;
+}
+.home2{}
+.home3{}
+.home4{}
